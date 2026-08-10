@@ -15,8 +15,8 @@ public class _01_for_Loop {
 
         int n = in.nextInt();
 
-        for(int num = 1 ; num<=n ; num++) {
-            System.out.print(num + " ");
+        for(int i = 1 ; i<=n ; i++) {
+            System.out.print(i + " ");
         }
 
 

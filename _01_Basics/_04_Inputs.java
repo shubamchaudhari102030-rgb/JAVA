@@ -13,7 +13,7 @@ public class _04_Inputs {
         int rollno = input.nextInt();
         System.out.println("Your Roll number is " + rollno);
 
-        input.close();
+        input.close(); 
         
     }
     

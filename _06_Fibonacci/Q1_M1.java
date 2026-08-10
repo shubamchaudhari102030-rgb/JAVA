@@ -2,7 +2,7 @@ package _06_Fibonacci;
 
 import java.util.Scanner;
 
-public class Q1 {
+public class Q1_M1 {
 
     public static void main(String[] args) {
         

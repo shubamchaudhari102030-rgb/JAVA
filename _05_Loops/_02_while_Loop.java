@@ -23,9 +23,9 @@ public class _02_while_Loop {
 
             num+=1;
 
-            input.close();
+            
         }
-
+            input.close();
         }
         
         

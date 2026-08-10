@@ -2,12 +2,11 @@ package _11_Functions;
 
 import java.util.Scanner;
 
-public class basics {
+public class Basics {
 
-    public static void main(String[] args) {
-        
-
-            
+    public static void main(String[] args)
+     {
+    
         for(int i =1 ; i<=3; i++){
             //function call
             sum();
@@ -18,7 +17,6 @@ public class basics {
         // sum();
         // sum();
         // sum();
-        
     }
     
     static void sum(){

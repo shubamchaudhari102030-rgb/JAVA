@@ -1,4 +1,4 @@
-package _16_Questions;
+package _17_Questions;
 
 public class Q2_P2_Armstrong {
 

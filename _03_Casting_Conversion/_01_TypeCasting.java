@@ -13,13 +13,15 @@ public class _01_TypeCasting {
 
     public static void main(String[] args) {
 
-    Scanner input = new Scanner(System.in);
-    System.out.println("Input an integer");
+        Scanner sc = new Scanner(System.in);
 
-    float num = input.nextFloat();
-    System.out.println(num);   
-    
-     input.close();
+        System.out.print("Enter a decimal number: ");
+        double a = sc.nextDouble();
+
+        int b = (int) a;   // Type Casting
+
+        System.out.println("Integer value: " + b);
+
+        sc.close();
     }
-    
 }

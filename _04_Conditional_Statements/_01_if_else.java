@@ -5,26 +5,33 @@ import java.util.Scanner;
 public class _01_if_else {
 
     public static void main(String[] args) {
-        
-       Scanner input = new Scanner(System.in);
-       System.out.println("Enter Salary:");
+        Scanner sc = new Scanner(System.in);
 
-       int salary = input.nextInt();
+        System.out.println("Enter the salary:");
 
-       System.out.println("Value of new salary is :");
+        int salary = sc.nextInt();
 
-        if(salary>=20000){
-            salary = salary + 2000;
-        
-        }
-        else{
+        System.out.println("New salary is:" );
+
+        if(salary>=20000  && salary < 50000){
             
-            salary = salary + 1000; 
+            salary = salary + 2000;
+        }
+
+        else if (salary >=50000){
+           
+            salary = salary + 5000;
+        }
+
+        else if (salary <20000){
+            salary =   salary + 5;
         }
 
         System.out.println(salary);
 
-        input.close();
+        sc.close();
+
     }
+    
     
 }
